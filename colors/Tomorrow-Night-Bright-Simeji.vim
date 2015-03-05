@@ -1,4 +1,5 @@
 " Tomorrow Night Bright - Full Colour and 256 Colour
+" Copyright (C) 2013 Chris Kempson
 " http://chriskempson.com
 "
 " Hex colour conversion functions borrowed from the theme "Desert256""
@@ -23,7 +24,7 @@ set background=dark
 hi clear
 syntax reset
 
-let g:colors_name = "Tomorrow-Night-Bright"
+let g:colors_name = "Tomorrow-Night-Bright-Simeji"
 
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
         " Returns an approximate grey index for the given grey level
